@@ -25,7 +25,7 @@ public:
     virtual void Display() const;
 };
 
-class Rectangle : public Triangle {
+class Rectangle : protected Triangle {
 private:
     double width, height;
 
